@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Currie_Lauchlan_s2335029</string>
+    <string name="weather_info_placeholder">Press the button below to view the weather in your desired location</string>
+    <string name="fetch_weather_button_text">Check Weather</string>
+
+    <!-- Array of locations -->
+    <string-array name="locations">
+        <item>Glasgow</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Oman</item>
+        <item>Mauritius</item>
+        <item>Bangladesh</item>
+    </string-array>
+
+    <!-- Array of location codes -->
+    <string-array name="location_codes">
+        <item>2648579</item> <!-- Glasgow -->
+        <item>2643743</item> <!-- London -->
+        <item>5128581</item> <!-- New York -->
+        <item>287286</item> <!-- Oman -->
+        <item>934154</item> <!-- Mauritius -->
+        <item>1185241</item> <!-- Bangladesh -->
+    </string-array>
+</resources>

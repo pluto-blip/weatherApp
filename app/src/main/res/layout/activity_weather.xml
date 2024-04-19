@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <!-- LauchlanCurries2335029 -->
+        <TextView
+            android:id="@+id/locationDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Location Info"
+            android:layout_alignParentTop="true" />
+
+        <!-- LauchlanCurries2335029 -->
+        <TextView
+            android:id="@+id/weatherDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Weather Info"
+            android:layout_below="@id/locationDisplay"
+            android:layout_marginTop="16dp" />
+
+        <!-- LauchlanCurries2335029 -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weatherDisplay"
+            android:layout_centerHorizontal="true"
+            android:text="Back"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Weather Forecast</title>
+        <item>
+            <title>Monday</title>
+            <description>Sunny</description>
+            <pubDate>2024-03-30</pubDate>
+            <guid>1</guid>
+        </item>
+        <item>
+            <title>Tuesday</title>
+            <description>Partly Cloudy</description>
+            <pubDate>2024-03-31</pubDate>
+            <guid>2</guid>
+        </item>
+        <item>
+            <title>Wednesday</title>
+            <description>Rainy</description>
+            <pubDate>2024-04-01</pubDate>
+            <guid>3</guid>
+        </item>
+    </channel>
+</rss>
